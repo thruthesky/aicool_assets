@@ -13,7 +13,7 @@ void main() async {
     await Process.run('curl', [
       'https://api.openai.com/v1/audio/speech',
       '-H',
-      "Authorization: Bearer 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",
+      "Authorization: Bearer xxx",
       '-H',
       "Content-Type: application/json",
       '-d',
