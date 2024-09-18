@@ -7,7 +7,7 @@ curl https://api.openai.com/v1/audio/speech -H "Authorization: Bearer ---key---"
 
 void main() async {
   for (final String word in phonicsWords.keys.toList()) {
-    print('word: $word, example: ${phonicsWords[word]!['example']}');
+    // print('word: $word, example: ${phonicsWords[word]!['example']}');
 
     // Will launch notepad.
     await Process.run('curl', [
